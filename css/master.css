@@ -1,3 +1,31 @@
 * {
+  margin: 0;
+  padding: 0;
   font: arial sans-serif 12px;
+}
+.menu ul {
+  list-style-type: none;
+}
+.menu li {
+  display: inline;
+}
+.menu ul li a {
+  display: inline-block;
+  text-decoration: none;
+  margin: 1% auto;
+  margin-left: 10%;
+  padding: auto;
+  color: #FFF;
+  background-color: lightgrey;
+}
+.menu a:hover {
+  color: purple;
+  background-color: yellow;
+  text-decoration: underline;
+}
+p {
+    max-width: 50%;
+    margin-left: 10%;
+    padding: 10% auto;
+    background-color: none;
 }
