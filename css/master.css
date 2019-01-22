@@ -11,6 +11,9 @@
 }
 .menu ul {
   list-style-type: none;
+  height: 80px;
+  width: 100%;
+  background-color: black;
 }
 .menu li {
   display: inline;
