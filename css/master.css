@@ -4,6 +4,11 @@
   font: arial sans-serif 12px;
   background-color: yellow;
 }
+.menu {
+  height: 80px;
+  width: 100%;
+  background-color: black;
+}
 .menu ul {
   list-style-type: none;
 }
