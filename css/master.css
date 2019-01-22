@@ -6,19 +6,17 @@
 }
 .menu ul {
   list-style-type: none;
-  height: 80px;
-  width: 100%;
-  background-color: black;
 }
 .menu li {
   display: inline;
+  position: static;
 }
 .menu ul li a {
-  display: inline-block;
   text-decoration: none;
-  margin: 1% auto;
-  margin-left: 10%;
-  padding: auto;
+  /* margin: 1% auto; */
+  margin-left: 5%;
+  margin: 5% auto;
+  padding: 10px 10px;
   color: #FFF;
   background-color: lightgrey;
 }
@@ -30,6 +28,6 @@
 p {
     max-width: 50%;
     margin-left: 10%;
-    padding: 10% auto;
+    padding: 30% auto;
     background-color: none;
 }
