@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   font: arial sans-serif 12px;
-  background-color: yellow;
+}
+body {
+  background-image: linear-gradient(to left, #000428 , #004e92);
 }
 .menu ul {
   list-style-type: none;
@@ -21,8 +23,8 @@
   background-color: lightgrey;
 }
 .menu a:hover {
-  color: purple;
-  background-color: yellow;
+  color: #FFF;
+  background-color: #004e92;
   text-decoration: underline;
 }
 p {
